@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Heart, Users, Target, Award, MapPin, Calendar,Quote,CheckCircle,ArrowRight} from 'lucide-react';
 import { Link } from 'react-router-dom';
+import theTeam from '../assets/real-boys.jpg'
 import ubah from '../assets/ubah.jpg'
 
 const About = () => {
@@ -159,7 +160,7 @@ const About = () => {
               <div className="w-full h-96 bg-gray-200 rounded-2xl shadow-xl flex items-center justify-center">
                 <div className="w-full h-96 rounded-2xl shadow-xl overflow-hidden">
                   <img
-                    src={ubah}
+                    src={theTeam}
                     alt="Community Impact"
                     className="w-full h-full object-cover"
                   />
@@ -404,36 +405,6 @@ const About = () => {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-20 bg-[#3B175D] text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold mb-6">
-            Ready to Join Our Mission?
-          </h2>
-          
-          <p className="text-lg mb-8 max-w-2xl mx-auto opacity-90">
-            Be part of the change you want to see. Together, we can create a more 
-            empowered and equitable community for all.
-          </p>
-          
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              to="/contact"
-              className="inline-flex items-center px-8 py-4 bg-[#E58E2F] text-white font-semibold rounded-lg hover:bg-[#E58E2F]/90 transition-all duration-300"
-            >
-              Get Involved
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Link>
-            
-            <Link
-              to="/projects"
-              className="inline-flex items-center px-8 py-4 border-2 border-white text-white font-semibold rounded-lg hover:bg-white hover:text-[#3B175D] transition-all duration-300"
-            >
-              See Our Work
-            </Link>
-          </div>
-        </div>
-      </section>
     </div>
   );
 };

@@ -59,7 +59,7 @@ const Footer = () => {
     {
       icon: Phone,
       title: 'Phone',
-      content: '+254 XXX XXX XXX'
+      content: '+254 708 418 264'
     },
     {
       icon: Mail,
@@ -222,7 +222,6 @@ const Footer = () => {
             {/* Copyright */}
             <div className="text-gray-300 text-sm">
               <p>© {currentYear} The Empowerment Hub. All rights reserved.</p>
-              <p className="mt-1">Founded in April 2025 by Ubah Abdullahi</p>
             </div>
 
             {/* Legal Links */}
@@ -241,11 +240,6 @@ const Footer = () => {
             {/* Recognition */}
             <div className="text-gray-300 text-sm text-center md:text-right">
               <p>Registered Community-Based Organization</p>
-              <div className="flex items-center justify-center md:justify-end mt-1">
-                <span className="mr-2">Made with</span>
-                <Heart className="h-4 w-4 text-red-500 fill-current" />
-                <span className="ml-2">for our community</span>
-              </div>
             </div>
           </div>
         </div>

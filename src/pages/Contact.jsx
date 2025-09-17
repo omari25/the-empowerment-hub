@@ -63,19 +63,19 @@ const Contact = () => {
     {
       icon: MapPin,
       title: "Our Location",
-      details: ["Garissa Town, Garissa County", "Kenya"],
+      details: ["Garissa Town", "Garissa County, Kenya"],
       action: "Get Directions"
     },
     {
       icon: Phone,
       title: "Phone Numbers",
-      details: ["+254 XXX XXX XXX", "+254 XXX XXX XXX"],
+      details: ["+254 708 418 264", "+254 720 025 523"],
       action: "Call Now"
     },
     {
       icon: Mail,
       title: "Email Addresses",
-      details: ["info@empowermenthub.org", "ubah@empowermenthub.org"],
+      details: ["empowermenthub42@gmail.com", "wardahubah9@gmail.com"],
       action: "Send Email"
     },
     {
@@ -440,7 +440,7 @@ const Contact = () => {
                 </p>
                 <div className="flex items-center">
                   <Phone className="h-4 w-4 text-red-600 mr-2" />
-                  <span className="font-semibold text-red-800">+254 XXX XXX XXX</span>
+                  <span className="font-semibold text-red-800">+254 708 418 264</span>
                 </div>
                 <p className="text-red-600 text-xs mt-2">Available 24/7 for emergencies</p>
               </div>
@@ -472,9 +472,7 @@ const Contact = () => {
               <div className="w-16 h-16 bg-[#3B175D] rounded-full flex items-center justify-center mx-auto mb-4">
                 <MapPin className="h-8 w-8 text-white" />
               </div>
-              <p className="text-gray-500 mb-2">Interactive Map Placeholder</p>
-              <p className="text-sm text-gray-400">Add Google Maps or similar mapping service</p>
-              <p className="text-sm text-gray-400 mt-2">Showing Empowerment Hub location in Garissa</p>
+              <p className="text-sm text-gray-400">Google Maps</p>
             </div>
           </div>
         </div>

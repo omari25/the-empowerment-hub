@@ -607,68 +607,6 @@ const Services = () => {
         </div>
       </section>
 
-      {/* Contact CTA */}
-      <section className="py-20 bg-[#3B175D] text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            {/* Content */}
-            <div>
-              <h2 className="text-3xl font-bold mb-6">
-                Ready to Access Our Services?
-              </h2>
-              
-              <p className="text-lg mb-8 opacity-90">
-                Whether you need individual support or want to bring our programs 
-                to your community, we're here to help. Get in touch to discuss 
-                how our services can make a difference.
-              </p>
-              
-              <div className="space-y-4">
-                <div className="flex items-center">
-                  <Phone className="h-6 w-6 text-[#E58E2F] mr-3" />
-                  <span>Call for immediate consultation</span>
-                </div>
-                <div className="flex items-center">
-                  <Mail className="h-6 w-6 text-[#E58E2F] mr-3" />
-                  <span>Email for detailed service information</span>
-                </div>
-                <div className="flex items-center">
-                  <Calendar className="h-6 w-6 text-[#E58E2F] mr-3" />
-                  <span>Schedule a community visit</span>
-                </div>
-              </div>
-            </div>
-            
-            {/* CTA Buttons */}
-            <div className="text-center lg:text-right">
-              <div className="space-y-4">
-                <Link
-                  to="/contact"
-                  className="block w-full lg:w-auto lg:inline-flex items-center justify-center px-8 py-4 bg-[#E58E2F] text-white font-semibold rounded-lg hover:bg-[#E58E2F]/90 transition-all duration-300"
-                >
-                  Request Services
-                  <ArrowRight className="ml-2 h-5 w-5" />
-                </Link>
-                
-                <Link
-                  to="/projects"
-                  className="block w-full lg:w-auto lg:inline-flex items-center justify-center px-8 py-4 border-2 border-white text-white font-semibold rounded-lg hover:bg-white hover:text-[#3B175D] transition-all duration-300 lg:ml-4"
-                >
-                  See Our Impact
-                </Link>
-              </div>
-              
-              <div className="mt-8 p-6 bg-white/10 rounded-lg backdrop-blur-sm">
-                <h3 className="font-bold mb-2">Emergency Support</h3>
-                <p className="text-sm opacity-90">
-                  For urgent community issues or crisis situations, 
-                  contact us immediately for rapid response services.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
     </div>
   );
 };

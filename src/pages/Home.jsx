@@ -4,6 +4,7 @@ import { ArrowRight, Users, Target, Heart, Award,ChevronLeft,ChevronRight,Play} 
 import outreach from '../assets/outreach.jpg'
 import schoolChildern from '../assets/childern.jpg'
 import teamMembers from '../assets/team.jpg'
+import ubahMwenyewe from '../assets/the-hub.jpg'
 
 const Home = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -81,7 +82,7 @@ const Home = () => {
   return (
     <div className="pt-16 lg:pt-20">
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center bg-gray-50 overflow-hidden">
+      <section className="relative min-h-screen flex items-center bg-gray-50 overflow-hidden pt-8">
         <div className="absolute inset-0 bg-[#3B175D]/10"></div>
         
         {/* Background Image Placeholder */}
@@ -240,7 +241,7 @@ const Home = () => {
             {/* Image */}
             <div className="relative">
               <img
-                src={teamMembers}
+                src={ubahMwenyewe}
                 alt="Founder Ubah Abdullahi"
                 className="w-full h-96 object-cover rounded-2xl shadow-xl"
               />
@@ -309,36 +310,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-20 bg-[#3B175D] text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl font-bold mb-6">
-            Ready to Make a Difference?
-          </h2>
-          
-          <p className="text-xl mb-8 max-w-2xl mx-auto opacity-90">
-            Join us in our mission to empower youth, promote equality, and create 
-            positive change in Garissa and beyond.
-          </p>
-          
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              to="/contact"
-              className="inline-flex items-center px-8 py-4 bg-[#E58E2F] text-white font-semibold rounded-lg hover:bg-[#E58E2F]/90 transition-all duration-300"
-            >
-              Get Involved Today
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Link>
-            
-            <Link
-              to="/projects"
-              className="inline-flex items-center px-8 py-4 border-2 border-white text-white font-semibold rounded-lg hover:bg-white hover:text-[#3B175D] transition-all duration-300"
-            >
-              View Our Impact
-            </Link>
-          </div>
-        </div>
-      </section>
     </div>
   );
 };

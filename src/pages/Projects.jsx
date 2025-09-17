@@ -323,7 +323,6 @@ const Projects = () => {
                           {project.category === 'social' && <Users className="h-8 w-8 text-white" />}
                           {project.category === 'development' && <TrendingUp className="h-8 w-8 text-white" />}
                         </div>
-                        <p className="text-sm text-gray-500">Project Image Placeholder</p>
                       </div>
                     </div>
                     
@@ -660,44 +659,6 @@ const Projects = () => {
         </div>
       </section>
 
-      {/* Get Involved CTA */}
-      <section className="py-20 bg-[#3B175D] text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold mb-6">
-            Ready to Join Our Next Project?
-          </h2>
-          
-          <p className="text-lg mb-8 max-w-2xl mx-auto opacity-90">
-            Whether you want to volunteer, partner with us, or suggest a new project, 
-            we're always looking for passionate individuals and organizations to join our mission.
-          </p>
-          
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              to="/contact"
-              className="inline-flex items-center px-8 py-4 bg-[#E58E2F] text-white font-semibold rounded-lg hover:bg-[#E58E2F]/90 transition-all duration-300"
-            >
-              Get Involved Today
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Link>
-            
-            <Link
-              to="/services"
-              className="inline-flex items-center px-8 py-4 border-2 border-white text-white font-semibold rounded-lg hover:bg-white hover:text-[#3B175D] transition-all duration-300"
-            >
-              View Our Services
-            </Link>
-          </div>
-          
-          <div className="mt-12 p-6 bg-white/10 rounded-xl backdrop-blur-sm max-w-lg mx-auto">
-            <h3 className="font-bold mb-2">Have a Project Idea?</h3>
-            <p className="text-sm opacity-90">
-              We're always open to new project suggestions that align with our mission. 
-              Contact us to discuss how we can bring your idea to life.
-            </p>
-          </div>
-        </div>
-      </section>
     </div>
   );
 };
